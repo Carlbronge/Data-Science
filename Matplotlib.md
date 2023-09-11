@@ -192,6 +192,7 @@ plt.legend()
 # Display the plot
 plt.show()
 # Matplotlib Marker Color Letters Guide
+
 ## Single-Letter Color Codes
 
 Matplotlib provides a set of single-letter color codes that you can use to specify marker colors quickly. Here are some commonly used color codes:
