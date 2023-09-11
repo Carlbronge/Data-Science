@@ -96,3 +96,33 @@ arr = np.array([10, 20, 30, 40, 50])
 condition = arr > 30
 selected_elements = arr[condition]  # Retrieves elements where the condition is True.
 
+# Plotting a Linear Equation: y = mx + b
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Define the parameters of the linear equation
+m = 2  # Slope
+b = 1  # Intercept
+
+# Generate x values
+x = np.linspace(-5, 5, 100)
+
+# Calculate y values using the equation
+y = m * x + b
+
+# Create the line plot
+plt.plot(x, y, label=f'y = {m}x + {b}', color='b')
+
+# Add labels and title
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Linear Equation: y = mx + b')
+plt.grid(True)
+
+# Add a legend
+plt.legend()
+
+# Display the plot
+plt.show()
+
