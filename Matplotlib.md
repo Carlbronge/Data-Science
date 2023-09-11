@@ -252,3 +252,9 @@ width, height = 256, 256
 # Generate random grayscale values (0 to 255)
 random_image = np.random.randint(0, 256, (height, width), dtype=np.uint8)
 
+# Display the random grayscale image
+plt.imshow(random_image, cmap='gray')
+plt.title('Random Grayscale Image')
+plt.axis('off')  # Turn off axis labels
+plt.show()
+
