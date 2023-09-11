@@ -12,8 +12,8 @@
 9. [Pie Charts](#pie-charts)
 10. [3D Plots](#3d-plots)
 11. [Saving and Exporting](#saving-and-exporting)
-12. Markers
-13. Marker Colors
+12. [Markers](#markers)
+13. [Marker Colors](#marker-colors)
 
 ## 1. Introduction to Matplotlib
 
