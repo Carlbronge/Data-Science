@@ -1,4 +1,3 @@
-Welcome to the Matplotlib Learning Guide! This README file serves as a starting point for your journey to learn Matplotlib, a powerful Python library for creating data visualizations. Whether you are new to Matplotlib or looking to expand your knowledge, this guide will help you get started and master the essentials.
 
 ## Table of Contents
 
