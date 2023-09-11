@@ -56,4 +56,43 @@ import numpy as np
 # Create an array of 10 evenly spaced values between 0 and 1
 linspace_array = np.linspace(0, 1, 10)
 print(linspace_array)
+import numpy as np
+
+# Create a one-dimensional array
+arr = np.array([0, 1, 2, 3, 4])
+
+# Accessing elements
+element_at_index_2 = arr[2]  # Indexing starts at 0, so this is the third element.
+import numpy as np
+
+# Create a two-dimensional array (3x3 matrix)
+matrix = np.array([[1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]])
+
+# Accessing elements
+element_at_row_1_col_2 = matrix[0, 1]  # Accesses the element in the first row, second column (index 0, 1).
+import numpy as np
+
+# Create a one-dimensional array
+arr = np.array([0, 1, 2, 3, 4, 5])
+
+# Slicing
+subarray = arr[1:4]  # Gets elements at indices 1, 2, and 3 (up to, but not including 4).
+import numpy as np
+
+# Create an array
+arr = np.array([10, 20, 30, 40, 50])
+
+# Fancy Using an array of indices to access elements
+indices = np.array([1, 3])
+selected_elements = arr[indices]  # Retrieves elements at indices 1 and 3.
+import numpy as np
+
+# Create an array
+arr = np.array([10, 20, 30, 40, 50])
+
+# Boolean indexing to select elements greater than 30
+condition = arr > 30
+selected_elements = arr[condition]  # Retrieves elements where the condition is True.
 
