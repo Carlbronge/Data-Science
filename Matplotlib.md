@@ -14,6 +14,7 @@
 11. [Saving and Exporting](#saving-and-exporting)
 12. [Markers](#markers)
 13. [Marker Colors](#marker-colors)
+14. [Grey Scale Image](#grey-scale-image)
 
 ## 1. Introduction to Matplotlib
 
@@ -231,3 +232,23 @@ plt.grid(True)
 
 # Show the plot
 plt.show()
+# Generating and Displaying a Random Grayscale Image in Matplotlib
+
+## Generating a Random Grayscale Image
+
+To create a random grayscale image, we'll follow these steps:
+
+1. Import the required libraries.
+2. Generate random pixel values between 0 and 255.
+3. Arrange these values into a 2D NumPy array to represent the image.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Define the dimensions of the image
+width, height = 256, 256
+
+# Generate random grayscale values (0 to 255)
+random_image = np.random.randint(0, 256, (height, width), dtype=np.uint8)
+
