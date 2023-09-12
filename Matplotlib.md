@@ -33,9 +33,8 @@ import numpy as np
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
-## 3. Create a basic line plot
 
-
+ 3. Create a basic line plot
 plt.plot(x, y)
 plt.show()
 import matplotlib.pyplot as plt
@@ -45,7 +44,8 @@ import numpy as np
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
-# Customize the plot
+
+4. Customize the plot
 plt.plot(x, y, label='Sine Wave', color='b', linestyle='--')
 plt.title('Customized Sine Wave')
 plt.xlabel('X-axis')
@@ -61,7 +61,8 @@ x = np.linspace(0, 10, 100)
 y1 = np.sin(x)
 y2 = np.cos(x)
 
-# Create multiple plots
+
+5. Create multiple plots
 plt.subplot(2, 1, 1)  # Two rows, one column, first plot
 plt.plot(x, y1, label='Sine Wave', color='b')
 plt.legend()
@@ -77,7 +78,8 @@ import matplotlib.pyplot as plt
 categories = ['Category A', 'Category B', 'Category C']
 values = [10, 15, 7]
 
-# Create a bar chart
+
+6. Create a bar chart
 plt.bar(categories, values, color='c')
 plt.title('Bar Chart Example')
 plt.xlabel('Categories')
@@ -90,7 +92,8 @@ import numpy as np
 x = np.random.rand(50)
 y = np.random.rand(50)
 
-# Create a scatter plot
+
+7. Create a scatter plot
 plt.scatter(x, y, color='g', marker='o', label='Random Data')
 plt.title('Scatter Plot Example')
 plt.xlabel('X-axis')
@@ -104,7 +107,8 @@ import numpy as np
 # Sample data
 data = np.random.randn(1000)  # Generate random data
 
-# Create a histogram
+
+8. Create a histogram
 plt.hist(data, bins=20, color='m', alpha=0.7)
 plt.title('Histogram Example')
 plt.xlabel('Values')
@@ -117,7 +121,8 @@ import matplotlib.pyplot as plt
 labels = ['Category A', 'Category B', 'Category C']
 sizes = [40, 30, 20]
 
-# Create a pie chart
+
+9. Create a pie chart
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', colors=['gold', 'lightcoral', 'lightskyblue'])
 plt.title('Pie Chart Example')
 plt.show()
@@ -130,7 +135,8 @@ y = np.linspace(-5, 5, 50)
 X, Y = np.meshgrid(x, y)
 Z = np.sin(np.sqrt(X**2 + Y**2))
 
-# Create a 3D surface plot
+
+10. Create a 3D surface plot
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.plot_surface(X, Y, Z, cmap='viridis')
@@ -146,7 +152,8 @@ import numpy as np
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
-# Create a line plot
+
+11. Create a line plot
 plt.plot(x, y)
 plt.title('Save Plot as Image')
 plt.xlabel('X-axis')
@@ -164,7 +171,8 @@ import numpy as np
 x = np.linspace(0, 2 * np.pi, 50)
 y = np.sin(x)
 
-# XY plot with different marker styles
+
+12. XY plot with different marker styles
 plt.figure(figsize=(10, 5))
 
 # Circle markers
@@ -196,8 +204,8 @@ plt.legend()
 plt.show()
 # Matplotlib Marker Color Letters Guide
 
-## Single-Letter Color Codes
 
+13. Single-Letter Color Codes
 Matplotlib provides a set of single-letter color codes that you can use to specify marker colors quickly. Here are some commonly used color codes:
 
 - `'b'`: Blue
@@ -236,8 +244,8 @@ plt.grid(True)
 plt.show()
 # Generating and Displaying a Random Grayscale Image in Matplotlib
 
-## Generating a Random Grayscale Image
 
+14. Generating a Random Grayscale Image
 To create a random grayscale image, we'll follow these steps:
 
 1. Import the required libraries.
