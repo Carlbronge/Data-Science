@@ -10,7 +10,6 @@ The `np.zeros` function is used to create an array filled with zeros. It takes t
 
 Example:
 
-```python
 import numpy as np
 
 #Create a 2x3 array filled with zeros
