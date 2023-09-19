@@ -1,4 +1,4 @@
-'''
+
 # NumPy and Matplotlib Functions README
 
 This README file provides explanations and examples of some fundamental functions from the NumPy and Matplotlib libraries. These functions are commonly used in scientific computing and data visualization tasks.
@@ -126,3 +126,4 @@ plt.legend()
 # Display the plot
 plt.show()
 
+'''
