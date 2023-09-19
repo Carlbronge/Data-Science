@@ -23,7 +23,7 @@ _
 Matplotlib is a widely used Python library for creating static, animated, and interactive visualizations in various formats, including charts, plots, graphs, and more. It provides an intuitive and flexible API for crafting data-driven visualizations and is often used in scientific computing, data analysis, and data science.
 
  2. Installation
-```bash
+```
 
 pip install matplotlib
 import matplotlib.pyplot as plt
@@ -32,9 +32,9 @@ import numpy as np
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
-
+```
 3. Create a basic line plot
-
+```
 plt.plot(x, y)
 plt.show()
 import matplotlib.pyplot as plt
@@ -44,8 +44,9 @@ import numpy as np
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
-
+```
 4. Customize the plot
+```
 plt.plot(x, y, label='Sine Wave', color='b', linestyle='--')
 plt.title('Customized Sine Wave')
 plt.xlabel('X-axis')
@@ -61,8 +62,9 @@ x = np.linspace(0, 10, 100)
 y1 = np.sin(x)
 y2 = np.cos(x)
 
-
+```
 5. Create multiple plots
+```
 plt.subplot(2, 1, 1)  # Two rows, one column, first plot
 plt.plot(x, y1, label='Sine Wave', color='b')
 plt.legend()
@@ -78,8 +80,9 @@ import matplotlib.pyplot as plt
 categories = ['Category A', 'Category B', 'Category C']
 values = [10, 15, 7]
 
-
+```
 6. Create a bar chart
+```
 plt.bar(categories, values, color='c')
 plt.title('Bar Chart Example')
 plt.xlabel('Categories')
@@ -92,8 +95,9 @@ import numpy as np
 x = np.random.rand(50)
 y = np.random.rand(50)
 
-
+```
 7. Create a scatter plot
+```
 plt.scatter(x, y, color='g', marker='o', label='Random Data')
 plt.title('Scatter Plot Example')
 plt.xlabel('X-axis')
@@ -107,8 +111,9 @@ import numpy as np
 # Sample data
 data = np.random.randn(1000)  # Generate random data
 
-
+```
 8. Create a histogram
+```
 plt.hist(data, bins=20, color='m', alpha=0.7)
 plt.title('Histogram Example')
 plt.xlabel('Values')
@@ -121,8 +126,9 @@ import matplotlib.pyplot as plt
 labels = ['Category A', 'Category B', 'Category C']
 sizes = [40, 30, 20]
 
-
+```
 9. Create a pie chart
+```
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', colors=['gold', 'lightcoral', 'lightskyblue'])
 plt.title('Pie Chart Example')
 plt.show()
@@ -135,8 +141,9 @@ y = np.linspace(-5, 5, 50)
 X, Y = np.meshgrid(x, y)
 Z = np.sin(np.sqrt(X**2 + Y**2))
 
-
+```
 10. Create a 3D surface plot
+```
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.plot_surface(X, Y, Z, cmap='viridis')
@@ -152,8 +159,9 @@ import numpy as np
 x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
-
+```
 11. Create a line plot
+```
 plt.plot(x, y)
 plt.title('Save Plot as Image')
 plt.xlabel('X-axis')
@@ -171,41 +179,51 @@ import numpy as np
 x = np.linspace(0, 2 * np.pi, 50)
 y = np.sin(x)
 
-
+```
 12. XY plot with different marker styles
+```
 plt.figure(figsize=(10, 5))
-
+```
 # Circle markers
+```
 plt.plot(x, y, marker='o', label='Circle Marker', linestyle='-', markersize=6)
-
+```
 # Square markers
+```
 plt.plot(x, y + 0.2, marker='s', label='Square Marker', linestyle='-', markersize=6)
-
+```
 # Diamond markers
+```
 plt.plot(x, y + 0.4, marker='D', label='Diamond Marker', linestyle='-', markersize=6)
-
+```
 # Triangle markers
+```
 plt.plot(x, y + 0.6, marker='^', label='Triangle Marker', linestyle='-', markersize=6)
-
+```
 # Cross markers
+```
 plt.plot(x, y + 0.8, marker='x', label='Cross Marker', linestyle='-', markersize=6)
-
+```
 # Plus markers
+```
 plt.plot(x, y + 1.0, marker='+', label='Plus Marker', linestyle='-', markersize=6)
-
+```
 # Customize the plot
+```
 plt.title('XY Plot with Different Markers')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.grid(True)
 plt.legend()
-
+```
 # Display the plot
+```
 plt.show()
 # Matplotlib Marker Color Letters Guide
 
-
+```
 13. Single-Letter Color Codes
+```
 Matplotlib provides a set of single-letter color codes that you can use to specify marker colors quickly. Here are some commonly used color codes:
 
 - `'b'`: Blue
@@ -216,9 +234,9 @@ Matplotlib provides a set of single-letter color codes that you can use to speci
 - `'y'`: Yellow
 - `'k'`: Black
 - `'w'`: White
-
+```
 ## Using Marker Color Letters
-
+```
 You can use these single-letter color codes when creating scatter plots or line plots with markers in Matplotlib. To set the marker color, combine the color code with the `color` parameter.
 
 ### Example - Scatter Plot with Marker Color
@@ -229,23 +247,27 @@ import matplotlib.pyplot as plt
 # Sample data
 x = [1, 2, 3, 4, 5]
 y = [10, 5, 20, 15, 30]
-
+```
 # Create a scatter plot with red markers
+```
 plt.scatter(x, y, marker='o', color='r', label='Red Markers')
-
+```
 # Customize the plot
+```
 plt.title('Scatter Plot with Red Markers')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.legend()
 plt.grid(True)
-
+```
 # Show the plot
+```
 plt.show()
 # Generating and Displaying a Random Grayscale Image in Matplotlib
 
-
+```
 14. Generating a Random Grayscale Image
+```
 To create a random grayscale image, we'll follow these steps:
 
 1. Import the required libraries.
