@@ -23,9 +23,13 @@
 Matplotlib is a widely used Python library for creating static, animated, and interactive visualizations in various formats, including charts, plots, graphs, and more. It provides an intuitive and flexible API for crafting data-driven visualizations and is often used in scientific computing, data analysis, and data science.
 
  2. Installation
-#3. Create a basic line plot
-Before you begin, make sure you have Matplotlib installed. You can install it using pip:
 
+    pip install matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+
+3. Create a basic line plot
+Before you begin, make sure you have Matplotlib installed. You can install it using pip:
 pip install matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
