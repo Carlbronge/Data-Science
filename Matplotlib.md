@@ -29,9 +29,7 @@ Before you begin, make sure you have Matplotlib installed. You can install it us
 pip install matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
-# Sample data
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
+
 ```bash
 
 pip install matplotlib
