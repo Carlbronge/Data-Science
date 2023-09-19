@@ -7,7 +7,7 @@ This README file provides explanations and examples of some fundamental function
 ### np.zeros
 
 The `np.zeros` function is used to create an array filled with zeros. It takes the shape of the desired array as an argument and returns a NumPy array with all elements initialized to 0.
-
+'''
 Example:
 
 import numpy as np
