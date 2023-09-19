@@ -13,7 +13,7 @@ Example:
 ```python
 import numpy as np
 
-# Create a 2x3 array filled with zeros
+#Create a 2x3 array filled with zeros
 zeros_array = np.zeros((2, 3))
 print(zeros_array)
 import numpy as np
