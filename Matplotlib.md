@@ -33,7 +33,7 @@ x = np.linspace(0, 10, 100)
 y = np.sin(x)
 
 
-#3. Create a basic line plot
+3. Create a basic line plot
 
 plt.plot(x, y)
 plt.show()
