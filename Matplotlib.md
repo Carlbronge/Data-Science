@@ -15,6 +15,8 @@
 12. [Markers](#markers)
 13. [Marker Colors](#marker-colors)
 14. [Grey Scale Image](#grey-scale-image)
+
+_
   
 1. Introduction to Matplotlib
 
