@@ -153,4 +153,7 @@ plt.legend()
 # Display the plot
 ```
 plt.show()
-
+```
+# Matrix
+```
+M@x
