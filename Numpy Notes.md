@@ -1,4 +1,3 @@
-
 ## NumPy Functions
 
 ### np.zeros
