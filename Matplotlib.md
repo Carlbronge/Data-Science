@@ -180,35 +180,35 @@ x = np.linspace(0, 2 * np.pi, 50)
 y = np.sin(x)
 
 ```
-# 12. XY plot with different marker styles
+12. XY plot with different marker styles
 ```
 plt.figure(figsize=(10, 5))
 ```
-# Circle markers
+ Circle markers
 ```
 plt.plot(x, y, marker='o', label='Circle Marker', linestyle='-', markersize=6)
 ```
-# Square markers
+ Square markers
 ```
 plt.plot(x, y + 0.2, marker='s', label='Square Marker', linestyle='-', markersize=6)
 ```
-# Diamond markers
+ Diamond markers
 ```
 plt.plot(x, y + 0.4, marker='D', label='Diamond Marker', linestyle='-', markersize=6)
 ```
-# Triangle markers
+ Triangle markers
 ```
 plt.plot(x, y + 0.6, marker='^', label='Triangle Marker', linestyle='-', markersize=6)
 ```
-# Cross markers
+ Cross markers
 ```
 plt.plot(x, y + 0.8, marker='x', label='Cross Marker', linestyle='-', markersize=6)
 ```
-# Plus markers
+ Plus markers
 ```
 plt.plot(x, y + 1.0, marker='+', label='Plus Marker', linestyle='-', markersize=6)
 ```
-# Customize the plot
+ Customize the plot
 ```
 plt.title('XY Plot with Different Markers')
 plt.xlabel('X-axis')
@@ -216,7 +216,7 @@ plt.ylabel('Y-axis')
 plt.grid(True)
 plt.legend()
 ```
-# Display the plot
+ Display the plot
 ```
 plt.show()
 # Matplotlib Marker Color Letters Guide
@@ -235,7 +235,7 @@ Matplotlib provides a set of single-letter color codes that you can use to speci
 - `'k'`: Black
 - `'w'`: White
 ```
-## Using Marker Color Letters
+ Using Marker Color Letters
 ```
 You can use these single-letter color codes when creating scatter plots or line plots with markers in Matplotlib. To set the marker color, combine the color code with the `color` parameter.
 
@@ -248,11 +248,11 @@ import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [10, 5, 20, 15, 30]
 ```
-# Create a scatter plot with red markers
+ Create a scatter plot with red markers
 ```
 plt.scatter(x, y, marker='o', color='r', label='Red Markers')
 ```
-# Customize the plot
+ Customize the plot
 ```
 plt.title('Scatter Plot with Red Markers')
 plt.xlabel('X-axis')
@@ -260,7 +260,7 @@ plt.ylabel('Y-axis')
 plt.legend()
 plt.grid(True)
 ```
-# Show the plot
+ Show the plot
 ```
 plt.show()
 # Generating and Displaying a Random Grayscale Image in Matplotlib
